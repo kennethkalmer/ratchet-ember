@@ -1,0 +1,21 @@
+@import "ratchet/sass/variables";
+
+// Change the behaviour of Ratchet slightly
+
+.content {
+  &.has-bar {
+    padding-top: $bar-base-height;
+  }
+
+  &.has-header-secondary {
+    padding-top: ($bar-base-height*2);
+  }
+
+  &.has-footer {
+    padding-bottom: $bar-base-height;
+  }
+
+  &.has-footer-secondary {
+    padding-bottom: ($bar-base-height*2);
+  }
+}
