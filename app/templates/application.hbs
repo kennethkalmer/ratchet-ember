@@ -1,6 +1,7 @@
 <!-- Make sure all your bars are the first things in your <body> -->
-<header class="bar bar-nav">
-  <h1 class="title">Ratchet &#x2661; Ember</h1>
-</header>
+{{render "header"}}
+{{render "footer"}}
 
-{{outlet}}
+<div class="content">
+  {{outlet}}
+</div>
