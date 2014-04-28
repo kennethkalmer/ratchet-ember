@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('tab-bar');
   this.route('standard-bars');
   this.route('modal');
+  this.route('scrolling');
 });
 
 export default Router;
