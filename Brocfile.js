@@ -19,7 +19,9 @@ var app = new EmberApp({
     'ratchet/js/popovers.js',
     'ratchet/js/segmented-controllers.js',
     'ratchet/js/sliders.js',
-    'ratchet/js/toggles.js'
+    'ratchet/js/toggles.js',
+    'snap.js',
+    'iscroll/build/iscroll.js'
   ],
 
   // AKA whitelisted modules
