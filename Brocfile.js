@@ -15,7 +15,7 @@ var app = new EmberApp({
     'app-shims.js',
     'ember-resolver.js',
     'ember-load-initializers.js',
-    'ratchet/js/modals.js',
+    //'ratchet/js/modals.js',
     'ratchet/js/popovers.js',
     'ratchet/js/segmented-controllers.js',
     'ratchet/js/sliders.js',
